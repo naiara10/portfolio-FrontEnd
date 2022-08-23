@@ -3,10 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './components/header/header.component';
+import { LogoARGPComponent } from './components/logo-argp/logo-argp.component';
+import { RedesComponent } from './components/redes/redes.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    LogoARGPComponent,
+    RedesComponent
   ],
   imports: [
     BrowserModule,
